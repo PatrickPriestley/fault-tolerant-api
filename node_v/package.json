@@ -1,0 +1,15 @@
+{
+  "name": "fault-tolerant-api",
+  "version": "1.0.0",
+  "description": "Fault tolerant payment API wrapper",
+  "main": "main.js",
+  "scripts": {
+    "start:api": "node mockApi.js",
+    "start:client": "node main.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
+    "winston": "^3.11.0"
+  }
+} 
